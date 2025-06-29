@@ -17,6 +17,7 @@
 This module defines functions that return instruction prompts for the root agent.
 These instructions guide the agent's behavior, workflow, and tool usage.
 """
+# pylint: disable=invalid-name
 
 
 def return_instructions_root() -> str:
